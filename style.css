@@ -31,8 +31,7 @@ main {
   }
 
 .mensagem {
-  background: white;
-  background-image:url("./imagens/boneco.png");
+  background: white;  
   display: float; 
   background-repeat: no-repeat;
   border: none;
