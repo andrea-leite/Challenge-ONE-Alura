@@ -1,5 +1,5 @@
 
-# Decodificador de Texto - Alura Challenges Oracle ONE (H1)
+# Decodificador de Texto - Alura Challenges Oracle ONE
 
 Orientações para o primeiro desafio!
 
