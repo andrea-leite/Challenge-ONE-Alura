@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador de Texto</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img class="logoAlura" src="./imagens/logoALura.png"  alt="Logo da Alura">  
+            </div>          
+        </header>
+
+        <main>
+            <section>
+                <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                
+                <div>
+                    <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+                </div>                      
+                                
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar"onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </section>
+            <section>
+               	<textarea class="mensagem" id="texto-saida" cols="22" rows="9"></textarea>
+              	           
+                <button onclick="copiarTexto()" id="copiar" class="btn-copiar">Copiar</button>
+               
+            </section>       
+        </main>
+        
+        <script src="./script.js"></script> 
+
+    </body>  
+    
+    <footer>  
+        <p class="copyright"> &copy;Copyright Desenvolvido por Andréa Leite, 2023</p>
+    </footer>
+    </html>
